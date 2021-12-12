@@ -1,0 +1,17 @@
+@use "../Variables/colours" as c;
+
+@mixin scroll-b {
+  position: fixed;
+  z-index: 2;
+  left: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: c.$bg-color;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 10px #666;
+}

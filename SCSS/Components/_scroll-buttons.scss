@@ -1,0 +1,19 @@
+@use "../Variables/colours" as c;
+@use "../Variables/mixins" as m;
+
+.scroll-up {
+  @include m.scroll-b;
+  top: 2%;
+}
+
+.scroll-down {
+  @include m.scroll-b;
+  bottom: 2%;
+}
+
+//Class
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: 200ms ease;
+}

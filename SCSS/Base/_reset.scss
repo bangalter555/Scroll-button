@@ -1,0 +1,20 @@
+:root {
+  font: 16px "Readex Pro", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: 200ms ease;
+}
+
+.body {
+  height: 400vh;
+  padding: 1% 0.5%;
+  overflow-y: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1%;
+}

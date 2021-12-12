@@ -1,0 +1,15 @@
+.main {
+  height: 96%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first-section,
+.second-section,
+.third-section,
+.fourth-section {
+  height: 24%;
+}

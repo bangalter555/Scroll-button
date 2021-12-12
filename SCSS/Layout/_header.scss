@@ -1,0 +1,12 @@
+@use "../Variables/colours" as c;
+
+.header {
+  width: 100%;
+  height: 4%;
+  background-color: c.$bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: fixed;
+  // z-index: 1;
+}
